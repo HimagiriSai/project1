@@ -1,0 +1,77 @@
+<div class="banner">
+  <div class="container">
+    <div class="logo" >
+      <a routerLink="/index"style="color: brown;background-color: darkgrey;" >Himagiri<span>Sai</span></a>
+    </div>
+    <nav class="navbar navbar-default" style="background-color:lightgray ">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse nav-wil" id="bs-example-navbar-collapse-1">
+        <nav class="stroke">
+        
+          <ul class="nav navbar-nav" >
+            <li  class="active"><a routerLink="/index" id="z" >Home</a></li>
+            <li><a routerLink="/about" id="z">About Us</a></li>
+            <li><a routerLink="/events" id="z">News & Events</a></li>
+            <li><a routerLink="/short-codes" id="z">Short Codes</a></li>
+            <li><a routerLink="/services" id="z">Services</a></li>
+            <li><a routerLink="/mail" id="z">Mail Us</a></li>
+          </ul>
+        
+        </nav>
+</div>
+      <!-- /.navbar-collapse -->
+    </nav>
+    </div>
+    <section class="slider">
+      <div class="flexslider">
+        <ul class="slides">
+          <li>
+            <div class="banner-info">
+              <h3>" Excepteur sint occaecat cupidatat non proident, 
+                sunt in culpa qui officia deserunt</h3>
+            </div>
+          </li>
+          <li>
+            <div class="banner-info">
+              <h3>" Sed ut perspiciatis unde omnis iste natus error sit 
+                voluptatem accusantium doloremque</h3>
+            </div>
+          </li>
+          <li>
+            <div class="banner-info">
+              <h3>" At vero eos et accusamus et iusto odio 
+                dignissimos ducimus qui blanditiis</h3>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+      <!--FlexSlider-->
+        <link rel="stylesheet" href="assets/css/flexslider.css" type="text/css" media="screen" />
+        <script defer src="assets/js/jquery.flexslider.js"></script>
+        <script type="text/javascript">
+        $(window).load(function(){
+          $('.flexslider').flexslider({
+          animation: "slide",
+          start: function(slider){
+            $('body').removeClass('loading');
+          }
+          });
+        });
+        </script>
+    <!--End-slider-script-->
+      </div>
+  
+ 
+     
+    
